@@ -63,46 +63,48 @@
         </a>
       </div>
       <div class="container">
-        <img src="img/Logo.png" alt="logo" class="mr-auto mx-lg-auto" />
+        <div class="row">
+          <div class="col-5"></div>
+          <div class="col-2">
+            <img src="img/Logo.png" alt="logo" class="m-auto" />
+          </div>
+          <div class="col d-none d-lg-flex flex-row-reverse align-items-center">
+            <div>
+              <img
+                src="img/twitter.svg"
+                alt="twitter"
+                height="20px"
+                width="20px"
+              />
+              <img
+                src="img/linkedin.svg"
+                alt="linkedin"
+                height="20px"
+                width="20px"
+              />
+              <img
+                src="img/google-plus-logo.svg"
+                alt="googleplus"
+                height="20px"
+                width="20px"
+              />
+              <img
+                src="img/facebook.svg"
+                alt="facebook"
+                height="20px"
+                width="20px"
+              />
+              <img
+                src="img/youtube-logotype.svg"
+                alt="youtube"
+                height="20px"
+                width="20px"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="container d-flex py-1 px-2">
-        <img
-          src="img/twitter.svg"
-          alt="twitter"
-          height="20px"
-          width="20px"
-          class="ml-auto"
-        />
-        <img
-          src="img/linkedin.svg"
-          alt="linkedin"
-          height="20px"
-          width="20px"
-          fill="#b2b2b2"
-        />
-        <img
-          src="img/google-plus-logo.svg"
-          alt="googleplus"
-          height="20px"
-          width="20px"
-          style="color:#b2b2b2"
-        />
-        <img
-          src="img/facebook.svg"
-          alt="facebook"
-          height="20px"
-          width="20px"
-          style="color:#b2b2b2"
-        />
-        <img
-          src="img/youtube-logotype.svg"
-          alt="youtube"
-          height="20px"
-          width="20px"
-          style="color:#b2b2b2"
-        />
-      </div>
-      <div class="fluid-container">
+      <div class="fluid-container border-top mt-4">
         <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto">
           <button
             class="navbar-toggler"
@@ -115,6 +117,40 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+          <div class="col d-flex d-lg-none flex-row-reverse align-items-center">
+            <div>
+              <img
+                src="img/twitter.svg"
+                alt="twitter"
+                height="20px"
+                width="20px"
+              />
+              <img
+                src="img/linkedin.svg"
+                alt="linkedin"
+                height="20px"
+                width="20px"
+              />
+              <img
+                src="img/google-plus-logo.svg"
+                alt="googleplus"
+                height="20px"
+                width="20px"
+              />
+              <img
+                src="img/facebook.svg"
+                alt="facebook"
+                height="20px"
+                width="20px"
+              />
+              <img
+                src="img/youtube-logotype.svg"
+                alt="youtube"
+                height="20px"
+                width="20px"
+              />
+            </div>
+          </div>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
               <a class="nav-item nav-link" href="#">INICIO</a>
@@ -136,8 +172,7 @@
         <img class="img-fluid" src="img/principal.png" alt="imagen principal" />
       </div>
       <div class="container">
-        <h1 class="text-center"><strong> El Centro </strong></h1>
-
+        <h1 class="text-center display-4">El Centro</h1>
         <p class="text-center text-muted">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod
@@ -145,16 +180,44 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <img class="col-12 col-md-4" src="img/libros.png" alt="libros" />
-            <h2><strong>Lorem ipsum </strong></h2>
-            <p>Lorem ipsum dolor sit amet</p>
-            <img class="col-12 col-md-4" src="img/grupo.png" alt="gente" />
-            <h2><strong>Lorem ipsum </strong></h2>
-            <p>Lorem ipsum dolor sit amet</p>
-            <img class="col-12 col-md-4" src="img/manos.png" alt="manos" />
-            <h2>Lorem ipsum</h2>
-            <p>Lorem ipsum dolor sit amet</p>
+          <div class="col-12 col-lg-4">
+            <div class="card shadow rounded-0">
+              <img
+                class="card-img-top rounded-0"
+                src="img/libros.png"
+                alt="libros"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card shadow rounded-0">
+              <img
+                class="card-img-top rounded-0"
+                src="img/grupo.png"
+                alt="grupo"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="card shadow rounded-0">
+              <img
+                class="card-img-top rounded-0"
+                src="img/manos.png"
+                alt="manos"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -223,7 +286,7 @@
             <a class="py-1 px-2" href="#">
               <span class="d-none d-lg-inline text-white">Ayuda</span>
             </a>
-         
+          </div>
         </div>
       </div>
     </header>
