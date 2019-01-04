@@ -15,7 +15,7 @@
   </head>
   <body>
     <header>
-      <div class="fluid-container bg-primary d-flex p-1 text-white">
+      <div class="fluid-container bg-blue d-flex p-1 text-white ">
         <div class="mr-auto p-1">
           <span class="d-none d-lg-inline pr-2">Llámanos</span>
           <img
@@ -172,13 +172,14 @@
         <img class="img-fluid" src="img/principal.png" alt="imagen principal" />
       </div>
       <div class="container">
-        <h1 class="text-center display-4">El Centro</h1>
-        <p class="text-center text-muted">
+        <h1 class="text-center tx-blue display-4">El Centro</h1>
+        <hr noshade="noshade" size="2" width="50%" />
+        <p class="text-center text-muted ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod
         </p>
       </div>
-      <div class="container">
+      <div class="container mb-5">
         <div class="row">
           <div class="col-12 col-lg-4">
             <div class="card shadow rounded-0">
@@ -222,13 +223,15 @@
         </div>
       </div>
       <div class="container">
-        <h1 class="text-center display-4">Trámites e información</h1>
+        <h1 class="text-center tx-blue display-4">Trámites e información</h1>
+        <hr noshade="noshade" size="2" width="50%" />
         <p class="text-center text-muted">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod
         </p>
       </div>
-      <div class="container">
+      <!-- imagenes inferiores -->
+      <div class="container mb-2 ">
         <div class="row">
           <div class="col-12 col-lg-3">
             <div class="card shadow rounded-0">
@@ -237,9 +240,9 @@
                 src="img/calendar1.png"
                 alt="calendario"
               />
-              <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet</p>
+              <div class="card-img-overlay overlay-down">
+                <h5 class="card-title tx-blue mb-0">Lorem ipsum</h5>
+                <p class="card-text text-white">Lorem ipsum dolor sit amet</p>
               </div>
             </div>
           </div>
@@ -250,9 +253,9 @@
                 src="img/building.png"
                 alt="eficio"
               />
-              <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet</p>
+              <div class="card-img-overlay overlay-down">
+                <h5 class="card-title tx-blue mb-0">Lorem ipsum</h5>
+                <p class="card-text text-white">Lorem ipsum dolor sit amet</p>
               </div>
             </div>
           </div>
@@ -263,9 +266,9 @@
                 src="img/test.png"
                 alt="test"
               />
-              <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet</p>
+              <div class="card-img-overlay overlay-down">
+                <h5 class="card-title tx-blue mb-0">Lorem ipsum</h5>
+                <p class="card-text text-white">Lorem ipsum dolor sit amet</p>
               </div>
             </div>
           </div>
@@ -276,54 +279,58 @@
                 src="img/sign.png"
                 alt="sign"
               />
-              <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet</p>
+              <div class="card-img-overlay overlay-down">
+                <h5 class="card-title tx-blue mb-0">Lorem ipsum</h5>
+                <p class="card-text text-white">Lorem ipsum dolor sit amet</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="fluid-container d-flex p-1 text-white">
-        <img class="col-12" src="img/logos.png" alt="sign" />
-      </div>
-      <div class="fluid-container bg-primary d-flex p-1 text-white">
-        <div class="container">
-          <p>Dirección</p>
-          <p>Lorem ipsum dolor,30</p>
-          <p>3500 Las palmas de Gran Canaria</p>
-          <p>España</p>
-        </div>
-        <div class="container">
-          <p>Contacto</p>
-          <p>Email:ipsum@ipsum.com</p>
-          <div class="container">
-            <a class="py-1 px-2" href="#">
-              <span class="d-none d-lg-inline text-white">Accesibilidad</span>
-            </a>
-            <a class="py-1 px-2" href="#">
-              <span class="d-none d-lg-inline text-white">Mapa-web</span>
-            </a>
-            <a class="py-1 px-2" href="#">
-              <span class="d-none d-lg-inline text-white"
-                >Tablón de anuncios</span
-              >
-            </a>
-            <a class="py-1 px-2" href="#">
-              <span class="d-none d-lg-inline text-white">Aviso legal</span>
-            </a>
-            <a class="py-1 px-2" href="#">
-              <span class="d-none d-lg-inline text-white"
-                >Protección de datos</span
-              >
-            </a>
-            <a class="py-1 px-2" href="#">
-              <span class="d-none d-lg-inline text-white">Ayuda</span>
-            </a>
-          </div>
-        </div>
+      <div class="fluid-container mt-3">
+        <img class="col-12 p-0" src="img/logos.png" alt="sign" />
       </div>
     </header>
+    <footer class="fluid-container bg-blue row p-1 text-white">
+      <div class="container col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <p>Dirección</p>
+        <p>Lorem ipsum dolor,30</p>
+        <p>3500 Las palmas de Gran Canaria</p>
+        <p>España</p>
+      </div>
+      <div class="container col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <p>Contacto</p>
+        <p>Email:ipsum@ipsum.com</p>
+      </div>
+      <div class="fluid-container bg-blue d-flex p-1 text-white">
+        <div class="container border-top p-1">
+          <a class="py-1 px-2" href="#">
+            <p class="d-inline text-white">Accesibilidad</p>
+          </a>
+          <p class="d-inline text-white p-1">|</p>
+          <a class="py-1 px-2" href="#">
+            <p class="d-inline text-white">Mapa-web</p>
+          </a>
+          <p class="d-inline text-white p-1">|</p>
+          <a class="py-1 px-2" href="#">
+            <p class="d-inline text-white">Tablón de anuncios</p>
+          </a>
+          <p class="d-inline text-white p-1">|</p>
+          <a class="py-1 px-2" href="#">
+            <p class="d-inline text-white">Aviso legal</p>
+          </a>
+          <p class="d-inline text-white p-1">|</p>
+          <a class="py-1 px-2" href="#">
+            <p class="d-inline text-white">Protección de datos</p>
+          </a>
+          <p class="d-inline text-white p-1">|</p>
+          <a class="py-1 px-2" href="#">
+            <p class="d-inline text-white">Ayuda</p>
+          </a>
+        </div>
+      </div>
+    </footer>
+
     <!--
       iconos
       <div>

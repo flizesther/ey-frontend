@@ -1,0 +1,25 @@
+hr {
+  text-align: center;
+  margin: auto;
+}
+.overlay-down {
+  background-color: orange;
+  opacity: 0.5;
+  height: 5rem;
+  margin-top: auto;
+}
+
+.bg-blue {
+  background-color: #1c3265;
+}
+
+.tx-blue {
+  color: #252c53;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+  line-height: 1rem;
+  font-size: 0.7rem;
+}
