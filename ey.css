@@ -1,25 +1,37 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h3 {
+  color: #252c53;
+}
 hr {
   text-align: center;
   margin: auto;
+  border-color: #dcdcdc;
+  background-color: #dcdcdc;
+  color: #dcdcdc;
 }
-.overlay-down {
-  background-color: orange;
-  opacity: 0.5;
-  height: 5rem;
-  margin-top: auto;
-}
-
-.bg-blue {
-  background-color: #1c3265;
-}
-
-.tx-blue {
-  color: #252c53;
-}
-
 footer p {
   margin: 0;
   padding: 0;
   line-height: 1rem;
   font-size: 0.7rem;
+}
+.bg-blue {
+  background-color: #1c3265;
+}
+.overlay-down {
+  background-color: rgba(255, 165, 0, 0.6);
+  height: 5rem;
+  margin-top: auto;
+}
+.subtext {
+  color: #757575;
+}
+.subtitle {
+  color: #c9c9c9;
+  font-size: 0.75rem;
+}
+.tx-blue {
+  color: #252c53;
 }

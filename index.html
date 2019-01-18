@@ -11,6 +11,10 @@
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="ey.css" />
   </head>
   <body>
@@ -104,8 +108,8 @@
           </div>
         </div>
       </div>
-      <div class="fluid-container border-top mt-4">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto">
+      <div class="fluid-container border-top mt-1">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mx-auto p-0">
           <button
             class="navbar-toggler"
             type="button"
@@ -154,15 +158,15 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav mx-auto">
               <a class="nav-item nav-link" href="#">INICIO</a>
-              <p class="navbar-text d-none d-lg-inline">|</p>
+              <p class="navbar-text d-none d-lg-inline mb-0">|</p>
               <a class="nav-item nav-link" href="#">TRÁMITES EN LÍNEA</a>
-              <p class="navbar-text d-none d-lg-inline">|</p>
+              <p class="navbar-text d-none d-lg-inline mb-0">|</p>
               <a class="nav-item nav-link" href="#"
                 >VERIFICACIÓN DE DOCUMENTOS
               </a>
-              <p class="navbar-text d-none d-lg-inline">|</p>
+              <p class="navbar-text d-none d-lg-inline mb-0">|</p>
               <a class="nav-item nav-link" href="#">REQUISITOS TÉCNICOS</a>
-              <p class="navbar-text d-none d-lg-inline">|</p>
+              <p class="navbar-text d-none d-lg-inline mb-0">|</p>
               <a class="nav-item nav-link" href="#">CONTÁCTANOS</a>
             </div>
           </div>
@@ -172,13 +176,14 @@
         <img class="img-fluid" src="img/principal.png" alt="imagen principal" />
       </div>
       <div class="container">
-        <h1 class="text-center tx-blue display-4">El Centro</h1>
+        <h1 class="text-center tx-blue display-6 mt-4">El Centro</h1>
         <hr noshade="noshade" size="2" width="50%" />
-        <p class="text-center text-muted ">
+        <p class="text-center subtext">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod
         </p>
       </div>
+      <!--sección imagenes superior-->
       <div class="container mb-5">
         <div class="row">
           <div class="col-12 col-lg-4">
@@ -188,9 +193,12 @@
                 src="img/libros.png"
                 alt="libros"
               />
-              <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet</p>
+              <div class="card-body d-flex justify-content-between">
+                <div>
+                  <h3 class="card-title mb-0">Lorem ipsum</h3>
+                  <p class="card-text subtitle">Lorem ipsum dolor sit amet</p>
+                </div>
+                <div><img src="img/next.png" alt="next" height="50px" /></div>
               </div>
             </div>
           </div>
@@ -201,9 +209,12 @@
                 src="img/grupo.png"
                 alt="grupo"
               />
-              <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet</p>
+              <div class="card-body d-flex justify-content-between">
+                <div>
+                  <h3 class="card-title mb-0">Lorem ipsum</h3>
+                  <p class="card-text subtitle">Lorem ipsum dolor sit amet</p>
+                </div>
+                <div><img src="img/next.png" alt="next" height="50px" /></div>
               </div>
             </div>
           </div>
@@ -214,24 +225,27 @@
                 src="img/manos.png"
                 alt="manos"
               />
-              <div class="card-body">
-                <h5 class="card-title">Lorem ipsum</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet</p>
+              <div class="card-body d-flex justify-content-between">
+                <div>
+                  <h3 class="card-title mb-0">Lorem ipsum</h3>
+                  <p class="card-text subtitle">Lorem ipsum dolor sit amet</p>
+                </div>
+                <div><img src="img/next.png" alt="next" height="50px" /></div>
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="container">
-        <h1 class="text-center tx-blue display-4">Trámites e información</h1>
+        <h1 class="text-center tx-blue display-6">Trámites e información</h1>
         <hr noshade="noshade" size="2" width="50%" />
-        <p class="text-center text-muted">
+        <p class="text-center subtext">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod
         </p>
       </div>
       <!-- imagenes inferiores -->
-      <div class="container mb-2 ">
+      <div class="container mb-2">
         <div class="row">
           <div class="col-12 col-lg-3">
             <div class="card shadow rounded-0">
@@ -240,7 +254,7 @@
                 src="img/calendar1.png"
                 alt="calendario"
               />
-              <div class="card-img-overlay overlay-down">
+              <div class="card-img-overlay overlay-down pt-3 pt-lg-1 pt-xl-3">
                 <h5 class="card-title tx-blue mb-0">Lorem ipsum</h5>
                 <p class="card-text text-white">Lorem ipsum dolor sit amet</p>
               </div>
@@ -253,7 +267,7 @@
                 src="img/building.png"
                 alt="eficio"
               />
-              <div class="card-img-overlay overlay-down">
+              <div class="card-img-overlay overlay-down pt-3 pt-lg-1 pt-xl-3">
                 <h5 class="card-title tx-blue mb-0">Lorem ipsum</h5>
                 <p class="card-text text-white">Lorem ipsum dolor sit amet</p>
               </div>
@@ -266,9 +280,9 @@
                 src="img/test.png"
                 alt="test"
               />
-              <div class="card-img-overlay overlay-down">
+              <div class="card-img-overlay overlay-down pt-3 pt-lg-1 pt-xl-3">
                 <h5 class="card-title tx-blue mb-0">Lorem ipsum</h5>
-                <p class="card-text text-white">Lorem ipsum dolor sit amet</p>
+                <p class="card-text text-white  ">Lorem ipsum dolor sit amet</p>
               </div>
             </div>
           </div>
@@ -279,7 +293,7 @@
                 src="img/sign.png"
                 alt="sign"
               />
-              <div class="card-img-overlay overlay-down">
+              <div class="card-img-overlay overlay-down pt-3 pt-lg-1 pt-xl-3">
                 <h5 class="card-title tx-blue mb-0">Lorem ipsum</h5>
                 <p class="card-text text-white">Lorem ipsum dolor sit amet</p>
               </div>
@@ -303,7 +317,7 @@
         </div>
         <div class="col-2 col-lg-2 mt-4 px-0">
           <p>Contacto</p>
-          <p>Email:ipsum@ipsum.com</p>
+          <p>Email: ipsum@ipsum.com</p>
         </div>
       </div>
       <div class="row">
